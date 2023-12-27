@@ -1,5 +1,4 @@
-
-"use client"
+"use client";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import PhoneInput from "react-phone-input-2";
@@ -24,6 +23,12 @@ export default function Home() {
         placeholder="123456"
       />
       <h1>{t("title")}</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsam
+        nobis assumenda inventore sapiente iure mollitia perferendis? Rerum,
+        aliquam aspernatur, ea pariatur voluptates, ipsa facilis voluptatibus
+        dolorum optio dolore non.
+      </p>
     </>
   );
 }
